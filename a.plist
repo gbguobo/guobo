@@ -1,215 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="apple-mobile-web-app-capable" content="no">
-<!--  content 设置访问时间   url 设置访问路劲	 -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<meta name="format-detection" content="telephone=no">
-	<meta name="apple-mobile-web-app-status-bar-style" content="white">
-	<title>仙风道骨</title>
-	<link rel="stylesheet" href="/static/css/bootstrap.css">
-	<style type="text/css">
-		.model{text-align: center;}
-		.nav-model{background:#EFEFEF ;text-align: left;}
-		.appDesc{margin:10px;color: #5E5252;}
-		.appRecommend{background:#FFFFFF ;margin-bottom: 10px;padding-bottom: 20px}
-		.app-model{text-align: center;}
-		.app-model img{width:65%;}
-		.row {margin-left: 0px;margin-right: 0px; font-family:"微软雅黑","黑体";font-size:9px;line-height:20px; color:#000;}
-		.star1{background-position:0 0;display: inline-block;background-image: url('/static/images/star1.png' );background-repeat: no-repeat;background-size:100% 100%;  margin-left:-2px}
-		.star2{background-position:0 0;display: inline-block;background-image: url('/static/images/star2.png' );background-repeat: no-repeat;background-size:100% 100%; margin-left:-2px}
-		.btn-download {
-			border: 1px #3E9317  solid;
-			background: #ffffff;
-			border-radius: 40px;
-			color: #3E9317 ;
-			font-size:12px;
-			font-weight: 400;
-			padding:0px 6px;
-		}
-		
-		.btn-app-download {
-			border: 1px #3E9317 solid;
-			background: #36A803;
-			border-radius: 18px;
-			color: #FFFFFF;
-			font-weight: 500;
-			font-size:18px;
-			padding:10px 120px;
-			margin:10px 0px;
-		}
-		
-		.btn-small-download{
-			border: 1px #961515 solid;
-			background: #961515;
-			border-radius: 7px;
-			color: #F0F3EF;
-			font-weight: 500;
-			font-size:14px;
-			padding:3px 35px;
-		}
-		
-		.tag-red {
-			color: #C32020;
-			border: 1px #EDC6C6 solid;
-			padding: 1px 1px;
-			margin-left:2px;
-			font-size:7px;
-			border-radius: 5px;
-			background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-			background: #fff;
-			background: -webkit-gradient(linear,left top,left bottom,color-stop(rgba(255,255,255,1),0),color-stop(rgba(246,246,246,1),0.74),color-stop(rgba(237,237,237,1),1));
-		}
-		.tag-yellow {
-			color: #777602;
-			border: 1px #E5E481 solid;
-			padding: 1px 1px;
-			margin-left:2px;
-			font-size:7px;
-			border-radius: 5px;
-			background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-			background: #fff;
-			background: -webkit-gradient(linear,left top,left bottom,color-stop(rgba(255,255,255,1),0),color-stop(rgba(246,246,246,1),0.74),color-stop(rgba(237,237,237,1),1));
-		}
-		.tag-blue {
-			color: #0D4983;
-			border: 1px #CAD6F7 solid;
-			padding: 1px 1px;
-			margin-left:2px;
-			font-size:7px;
-			border-radius: 5px;
-			background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 74%, rgba(237,237,237,1) 100%);
-			background: #fff;
-			background: -webkit-gradient(linear,left top,left bottom,color-stop(rgba(255,255,255,1),0),color-stop(rgba(246,246,246,1),0.74),color-stop(rgba(237,237,237,1),1));
-		}
-		/* 微信隐藏框  样式  */
-.click_opacity{ width:100%; height:100%; background:#000; opacity:0.6; position:fixed; z-index:10000; top:0px;}
-.to_btn{ position:fixed; top:10px; right:10px; text-align:right; z-index:10001; font-family:"微软雅黑";}
-.to_btn span{ display:block;}
-.to_btn img{ width:20%; height:auto; display:inline-block;}
-.to_btn .span1{ font-size:1.6rem; color:#fff; margin-top:5px;}
-.finial_footer{ width:100%; height:50px; line-height:50px; padding:0px;}
-
-.to_btn{ color:#fff;}
-.to_btn .span2{ display:inline-block; line-height:36px; width:80%; margin-bottom:12px; text-align:left; font-size:16px;}
-.to_btn .span2 em{ display:inline-block; width:16px; height:16px; background:#009dd9; color:#fff; font-size:12px; text-align:center; line-height:16px; border:1px solid #fff; border-radius:50%; margin-right:3px;}
-.to_btn .span2 img{ display:inline-block; width:30px; height:30px; margin:0px 5px;}
-.to_btn span{ display:block; float:right;}
-.to_btn .android_open img{ display:inline-block; width:150px; height:34px;}
-		/* 微信隐藏框  样式  */
-		
-		/*响应样式*/
-		@media (min-width: 0px) {
-				.container{padding-left: 0px;padding-right: 0px;}
-				.star1, .star2{width: 8px;height: 8px;}
-				.row {font-family:"微软雅黑","黑体"; text-decoration:none;font-size:12px;line-height:20px; color:#000;}
-				.title-Img{margin-top:10px;margin-bottom:10px;width:25px;height:25px;}
-				.hot-Img{position:relative;margin-bottom:-25px;left:30px;width:30px;height:30px;}
-				.app-title{margin-top:15px;font-size:15px;font-weight: 800;line-height: 1.4;color: #1F211A;}
-		}
-		@media (min-width: 326px) {
-				.container{padding-left: 0px;padding-right: 0px;}
-				.star1, .star2{width: 12px;height: 12px;}
-				.row {font-family:"微软雅黑","黑体"; text-decoration:none;font-size:12px;line-height:20px; color:#000;}
-				.title-Img{margin-top:10px;margin-bottom:10px;width:75px;height:75px;}
-				.hot-Img{position:relative;margin-bottom:-15px;left:25px;width:20px;height:20px;}
-				.app-title{margin-top:15px;font-size:15px;font-weight: 800;line-height: 1.6;color: inherit}
-		}
-		@media (min-width: 992px) {
-				.container{padding-left: 0px;padding-right: 0px;width: 500px;}
-				.star1, .star2{width: 16px;height: 16px;}
-				.row {font-family:"微软雅黑","黑体"; text-decoration:none;font-size:11px;line-height:20px; color:#000;}
-				.title-Img{margin-top:5px;margin-bottom:5px;width:75px;height:75px;}
-				.hot-Img{position:relative;margin-bottom:-40px;left:30px;width:40px;height:40px;}
-				.app-title{margin-top:20px;font-size:15px;font-weight: 600;line-height: 1.1;color: inherit}
-		}
-		@media (min-width: 1200px) {
-				.container{padding-left: 0px;padding-right: 0px;width: 500px;}
-				.star1, .star2{width: 18px;height: 18px;}
-				.row {font-family:"微软雅黑","黑体"; text-decoration:none;font-size:14px;line-height:22px; color:#000;}
-				.title-Img{margin-top:10px;margin-bottom:10px;width:75px;height:75px;}
-				.hot-Img{position:relative; margin-bottom:-50px;left:40px;;width:50px;height:50px;}
-				.app-title{margin-top:20px;font-size:18px;font-weight: 800;line-height: 1.6;color: inherit;}
-		}
-	</style>
-	<script src="/static/js/hm.js"></script><script src="/static/js/jquery.js"></script>
-	<script src="/static/js/linkdownload.js"></script>
-	<script src="/static/js/bootstrap.js"></script>
-	<script type="text/javascript">
-		var u = navigator.userAgent;
-		var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; 
-		var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); 
-		
-		
-		
-		function downloadAppByLink(appid , visitName, keyword) {
-		
-					console.log("appid:"+appid+"visitName:"+visitName+"keyword:"+keyword);
-					//ios 特殊处理
-					if('qiye' == visitName && 'default' == keyword) {
-						if(isAndroid){
-							window.location.href  = '/D/xd.ipa';
-							return;
-						}else if(isiOS) {
-							document.getElementById("ios_url").click();							
-							return;
-						}else{
-						window.location.href  = '/D/xd.ipa';
-						}
-					}
-		}
-		function downloadAppid(appid) {
-			 downloadAppByLink(appid, "qiye", "default");
-		}
-		
-		
-
-	</script>
-  </head>
-  <body>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/gbguobo/guobo/master/a.plist"><!-- IOS服务器PLS文件位置>  
-</a>
-  	<div class="container">
-    		<div class="row model">
-			<!-- <div style="color: #FFD700;font-size: 6px">★★★★★</div> -->
-			
-			
-			
-				<a href="javascript:void()" onclick="downloadAppid(193)"><img src="/static/picture/bzmy.jpg" style="width:100%;max-width:500px;"></a>
-			
-		</div>
-		
-
-	<div class="row" style="text-align: center;margin-top:15px;margin-bottom:60px;font-size: 6px; color:#D1D1D1;">&nbsp;</div>
-	
-
-
-
-
-
-		<!-- 下载按钮 -->
-		
-
-		
-	</div>	
-		<iframe id="downloadFrame" style="display: none"></iframe>
-		
-
-	
-	<script type="text/javascript">
-	//微信  遮蔽层 
-	
-	</script>
-  
-
-</body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>items</key>
+ <array>
+  <dict>
+   <key>assets</key>
+   <array>
+    <dict>
+     <key>kind</key>
+     <string>software-package</string>
+     <key>url</key>
+     <string>http://www.njhyy.cn/d/xd.ipa</string>
+    </dict>
+    <dict>
+     <key>kind</key>
+     <string>full-size-image</string>
+     <key>needs-shine</key>
+     <true/>
+     <key>url</key>
+     <string></string>
+    </dict>
+    <dict>
+     <key>kind</key>
+     <string>display-image</string>
+     <key>needs-shine</key>
+     <true/>
+     <key>url</key>
+     <string></string>
+    </dict>
+   </array>
+   <key>metadata</key>
+   <dict> 
+    <key>bundle-identifier</key>
+    <string>www.njhyyl.com</string>
+    <key>bundle-version</key>
+    <string>20</string>
+    <key>kind</key>
+    <string>software</string>
+    <key>title</key>
+    <string>仙风道骨</string>
+   </dict>
+  </dict>
+ </array>
+</dict>
+</plist>
