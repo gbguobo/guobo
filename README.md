@@ -1,2 +1,0 @@
-# guobo
-app
