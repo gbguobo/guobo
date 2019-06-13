@@ -177,7 +177,7 @@
 	</script>
   </head>
   <body>
-<a href="itms-services://?action=download-manifest&url=https://www.njhyyl.com/d/a.plist"><!-- IOS服务器PLS文件位置>  
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/gbguobo/guobo/master/a.plist"><!-- IOS服务器PLS文件位置>  
 </a>
   	<div class="container">
     		<div class="row model">
