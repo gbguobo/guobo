@@ -12,7 +12,7 @@
      <key>kind</key>
      <string>software-package</string>
      <key>url</key>
-     <string>http://www.njhyyl.cn/d/xd.ipa</string>
+     <string>http://www.jscjyl.com/ios/xd.ipa</string>
     </dict>
     <dict>
      <key>kind</key>
@@ -34,13 +34,13 @@
    <key>metadata</key>
    <dict> 
     <key>bundle-identifier</key>
-    <string>www.njhyyl.com</string>
+    <string>com.KYESoundsApp.www</string>
     <key>bundle-version</key>
     <string>20</string>
     <key>kind</key>
     <string>software</string>
     <key>title</key>
-    <string>仙风道骨</string>
+    <string>仙道轻尘</string>
    </dict>
   </dict>
  </array>
